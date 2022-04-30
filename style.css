@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.main1{
+    width: 100%;
+    background: #9fa397;
+    background-position: center;
+    background-size: cover;
+}
+.main2{
+    width: 100%;
+    background: #9fa397;
+    background-position: center;
+    background-size: cover;
+}
+
+
+nav{
+   
+    display:  flex;
+    padding: 2% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 50px;
+}
+
+.links{ 
+
+margin-right: 250px;
+width: 350px;
+height: 70px;
+float: left;
+text-overflow: ellipsis; 
+white-space: nowrap;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+ul li{
+    float: left;
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ul li:hover::after{
+    width: 100%;
+}
+
+.title{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.title h1{
+font-size: 62px;
+}
+.title p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: white;
+}
+.social{
+    margin-top: -10px;
+}
+.search{
+    width: 300px;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 70px;
+
+}
+.srch{
+    width: 170px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 13px;
+    color: solid white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+     
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    background: #9fa397;
+    border: none;
+    margin-top: 13px;
+    color: white;
+    font-size: 14px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.btn:focus{
+    outline: none;
+}
+.btn1{
+    width: 80px;
+    height: 30px;
+    background: white;
+    border: none;
+    margin-top: 13px;
+    color: #9fa397;
+    font-size: 14px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.srch:focus{
+    outline: none;
+}
+
+.products{
+    background: #9fa397;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;    
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+.item p{
+    margin-bottom: 10px;
+}
+.item{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px #5a5e50;
+    margin-bottom: 30px;
+    max-width: 100%;
+    align-items: center;
+}
+.item img{
+    width: 95%;
+}
+.box{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.buy{
+    width: 60px;
+    height: 20px;
+    background: #9fa397;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+.buy:hover{
+    background: white;
+    color: #9fa397;
+}
+.contact{
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 90vh;
+}
+.contact h1{
+    color: #9fa397;
+}
+.frame{
+    float: right;
+    position: relative;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.info{
+    float: left;
+    align-content: center;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.info img{
+    max-width: 70%; 
+}
+.us {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/Drink-Tea-Cup-Rose-Petals-6871720.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    
+}
+.more{
+    width: 80%;
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    
+}
+.more h1{
+    float: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.more p{
+    float: center;
+    color: white;
+   
+}
+.end{
+    width: 100%;;
+    background-position: center;
+    background-size: cover;
+    background-color: #5a5e50;
+    height: 10vh;
+}
+.end img{
+    float: left;
+    width: 15%;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 550px;
+}
